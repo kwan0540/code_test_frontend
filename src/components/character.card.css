@@ -1,0 +1,30 @@
+.character-card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .character-name {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #343a40;
+  }
+  
+  .character-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .character-details p {
+    margin: 5px 0;
+    color: #343a40;
+    font-size: 14px;
+  }
+  
+  .character-details strong {
+    font-weight: bold;
+  }
